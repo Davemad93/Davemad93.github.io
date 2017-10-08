@@ -4,6 +4,9 @@
 @import 'foundation';
 @import 'motion-ui';
 
+// custom components
+@import 'vert-graph';
+
 @include foundation-global-styles;
 // @include foundation-grid;
 // @include foundation-flex-grid;
