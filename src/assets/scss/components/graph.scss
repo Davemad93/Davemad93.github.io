@@ -1,4 +1,4 @@
- $bar-graph-height: 425px;
+$bar-graph-height: 425px;
 
 .bar-graph {
   padding: 0;
@@ -10,7 +10,7 @@
 
   li {
     display: block;
-    padding: rem-calc(25) 0;
+    padding: rem-calc(0) 0;
     position: relative;
     text-align: center;
     vertical-align: bottom;
@@ -76,7 +76,7 @@
   .description {
     font-weight: 800;
     opacity: 0.5;
-    text-transform: uppercase;
+    text-transform: lowercase;
     width: 100%;
     font-size: 14px;
     bottom: 20px;
