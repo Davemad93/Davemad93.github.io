@@ -6,7 +6,9 @@
 
 // custom components
 @import 'components/graph';
-//@import 'graph';
+@import "components/Scroll-Container";
+@import 'components/menuHB';
+@import 'components/menu2';
 
 @include foundation-global-styles;
 // @include foundation-grid;
