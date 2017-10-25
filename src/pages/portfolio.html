@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
@@ -11,29 +11,35 @@
     <div class="off-canvas-wrapper">
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
+        <!--Left Nav Menu-->
         <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
           <div class="row column">
+            <div >
+              <img class="user" src="assets\img\selfie.jpg" alt="A selfie of David Madrigal">
+              <h5>David Madrigal</h5>
+            </div>
               <ul class="menu menu-hover-lines " >
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Products</a></li>
-                <li class="active"><a href="#contact">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact me</a></li>
               </ul>
           </div>
         </div>
 
+        <!--Main Content window-->
         <div class="off-canvas-content" data-off-canvas-content>
           <div class="title-bar hide-for-large">
             <div class="title-bar-left">
-              <button class="menu-icon" type="button" data-open="my-info"></button>
+              <button class="menu-icon" type="button" data-open="my-info">helo</button>
               <span class="title-bar-title">David Madrigal</span>
             </div>
           </div>
-          <div class="callout primary">
-            <div class="row column">
-              <h1 style="">David Madrigal</h1>
+
+          <div class="callout black">
+            <div id="about" class="row column">
+              <h1 style="">About me</h1>
               <p class="lead">I am a recent graduate of Governors State University
   with a Bachelors in Computer Science. I am very passionate about coding,
   problem solving and all aspects of technology in general. I deveolped an interest
@@ -42,97 +48,44 @@
   avid astronomer. I am currently located in the south suburbs of Chicago.</p>
             </div>
           </div>
-          <div class="row small-up-2 medium-up-3 large-up-4">
 
+
+          <div id="skills" class="row small-up-2 medium-up-3 large-up-4">
             <div>
-              <h2>Skills</h2>
+              <h2></h2>
             </div>
-            <ul class="bar-graph">
-  <li class="bar-graph-axis">
-    <div class="bar-graph-label">100%</div>
-    <div class="bar-graph-label">80%</div>
-    <div class="bar-graph-label">60%</div>
-    <div class="bar-graph-label">40%</div>
-    <div class="bar-graph-label">20%</div>
-    <div class="bar-graph-label">0%</div>
-  </li>
-  <li class="bar primary" style="height: 95%;" title="95">
-    <div class="percent">95<span>%</span></div>
-    <div class="description">HTML</div>
-  </li>
-  <li class="bar secondary" style="height: 90%;" title="90">
-    <div class="percent">90<span>%</span></div>
-    <div class="description">SCSS</div>
-  </li>
-  <li class="bar success" style="height: 80%;" title="80">
-    <div class="percent">80<span>%</span></div>
-    <div class="description">C#</div>
-  </li>
-  <li class="bar warning" style="height: 70%;" title="70">
-    <div class="percent">70<span>%</span></div>
-    <div class="description">Python</div>
-  </li>
-  <li class="bar alert" style="height: 50%;" title="50">
-    <div class="percent">50<span>%</span></div>
-    <div class="description">c++</div>
-  </li>
-  <li class="bar primary" style="height: 30%;" title="30">
-    <div class="percent">30<span>%</span></div>
-    <div class="description">java</div>
-  </li>
-</ul>
 
+            <h5 class="tag-cloud-title">Skills</h5>
+            <div class="tag-cloud">
+              <a class="tag-cloud-individual-tag" href="#">HTML<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">SCSS<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">CSS<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">C#<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">Python<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">Javascript<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">Java<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">C++<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">.Net<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">Foundation<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">Bootstrap<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">MS Access<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">SQLite<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+              <a class="tag-cloud-individual-tag" href="#">MySQL<i class="fa fa-times-circle" aria-hidden="true"></i></a>
+            </div>
 
-
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="http://placehold.it/550x550">
-              <h5>My Site</h5>
-            </div>
           </div>
+
+          <hr>
+
+
+            <div id="resume" style="text-align:center;">
+              <a id="resume-anchor" href="https://docs.google.com/document/d/1y5S9JIXfPKvZ95Giu4N_NGp_PMVV2fym1ZtfxX3EbcM/edit?usp=sharing" >
+                <img src="assets\img\pdf-icon.png" class="img" alt="PDF file icon">
+                <span>RESUME<span></span></span>
+              </a>
+            </div>
+
+
 
           <hr>
 
@@ -141,8 +94,8 @@
               <h3>Contact Me</h3>
               <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
               <ul class="menu">
-                <li><a href="#">Dribbble</a></li>
-                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">GitHub</a></li>
                 <li><a href="#">Yo</a></li>
               </ul>
             </div>

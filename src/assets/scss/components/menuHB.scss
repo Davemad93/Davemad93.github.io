@@ -2,7 +2,7 @@ $menu-hover-lines-transition: all 0.35s ease;
 $menu-hover-lines-border-width: 3px;
 
 .menu-hover-lines {
-  text-align: vertical-align;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 1px;
@@ -16,7 +16,7 @@ $menu-hover-lines-border-width: 3px;
   }
 
   li:first-child a {
-    margin-left: 0;
+    margin-left: 10;
   }
 
   li.active > a {

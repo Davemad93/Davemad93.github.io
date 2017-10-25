@@ -59,6 +59,7 @@
 //  54. Tooltip
 //  55. Top Bar
 //  56. Xy Grid
+//  57. Font-Awesome
 
 @import 'util/util';
 
@@ -74,6 +75,7 @@ $foundation-palette: (
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
+  black: #0a0a0a,
 );
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
@@ -313,7 +315,7 @@ $buttongroup-radius-on-each: true;
 // -----------
 
 $callout-background: $white;
-$callout-background-fade: 85%;
+$callout-background-fade:10%;
 $callout-border: 1px solid rgba($black, 0.25);
 $callout-margin: 0 0 1rem 0;
 $callout-padding: 1rem;
@@ -866,3 +868,34 @@ $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
+
+// 57. FontAwesome
+// ---------------
+$fontFileName: "../fonts/social_foundicons";
+$fontName: "SocialFoundicons";
+$classPrefix: "foundicon-";
+
+@mixin i-class($name,$pua) {
+  .#{$classPrefix}#{$name}:before {
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$classPrefix}#{$name} {
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};");
+  }
+}
+
+@mixin face {
+  @font-face {
+    font-family: $fontName;
+    src: url('#{$fontFileName}.eot');
+    src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontFileName}.woff') format('woff'),
+         url('#{$fontFileName}.ttf') format('truetype'),
+         url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
