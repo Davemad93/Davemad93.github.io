@@ -12,13 +12,11 @@ $off-black: #11131f;
 
 .test{
   display: block;
-  background: url(https://i.pinimg.com/736x/ed/93/0d/ed930d32e12d5cfea33408957fb66b02--outer-space-art-gallery.jpg) no-repeat center;
-  //background-color: $alert-color;
-  //background-size: contain;
-  background-position: 425px 0px;
-  height: 800px;
-  transform: rotate(45deg);
-  //margin-left: 280px;
+  background: url(../img/keyboard.jpg) no-repeat center;
+  background-size: contain;
+  background-position: 0px 0px;
+  height: 1200px;
+  width: 1800px;
 }
 
 .user {
