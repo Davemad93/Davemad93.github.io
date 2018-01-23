@@ -20,9 +20,18 @@ $success: #3adb76;
 
 }
 
+.project{
+  text-align: left;
+  margin-left: 250px;
+  margin-right: 250px
+
+}
+
+
+
 .h1{color: $success-color}
 
-//*****************************************Background img sass
+//*****************************************Background img
 .img-bg{
   display: block;
   background: url(../img/keyboard.jpg) no-repeat center;
@@ -32,7 +41,7 @@ $success: #3adb76;
   width: 1440px;
 }
 
-//*****************************************Selfie img sass
+//*****************************************Selfie img
 .img-self {
 
   display: inline-block;
@@ -45,7 +54,7 @@ $success: #3adb76;
   margin: 10px;
 }
 
-//*****************************************Resume Img sass
+//*****************************************Resume Img
 .img {
 
   width: 300px;
