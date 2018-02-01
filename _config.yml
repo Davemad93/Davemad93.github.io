@@ -27,7 +27,7 @@ PATHS:
   sass:
     - "node_modules/foundation-sites/scss"
     - "node_modules/motion-ui/src"
-    - "sass_dir: _sass"
+    - "sass_dir: assets/_sass"
     - "style: compressed"
   # Paths to JavaScript entry points for webpack to bundle modules
   entries:
